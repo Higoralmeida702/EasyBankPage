@@ -1,4 +1,5 @@
 
+import Footer from './components/Footer'
 import LastestArticles from './components/LastestArticles'
 import PrincipalContent from './components/PrincipalContent'
 import Header from './components/header'
@@ -11,6 +12,7 @@ function App() {
      <Header/>
      <PrincipalContent/>
      <LastestArticles/>
+     <Footer/>
       </div>
      
   )
