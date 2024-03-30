@@ -9,3 +9,11 @@ body {
     font-family: "Public Sans", sans-serif;
     font-size: 18px;
 }
+
+h1 {
+    font-weight: 300;
+}
+
+p {
+    color:  hsl(233, 8%, 62%)
+}

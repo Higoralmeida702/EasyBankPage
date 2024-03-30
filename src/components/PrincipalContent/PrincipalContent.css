@@ -1,0 +1,58 @@
+.principalContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:  hsl(0, 0%, 98%)
+}
+
+.nextGenerationContent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 200px;
+    
+}
+
+.nextGenerationContent h1 {
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+.nextGenerationContent h1,p {
+    margin-bottom: 25px;
+}
+
+.imgCelulares {
+    width: 90%;
+    background-image: url('./images/bg-intro-desktop.svg');
+    background-repeat: no-repeat;
+    justify-self: end
+    
+}
+
+.whyEasyBank {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.whyEasyBank h1,p {
+    margin-bottom: 18px;
+}
+
+.benefits {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 60px;
+}
+
+.benefits p {
+    width: 300px;
+}
+
+.benefitsContent h1,img, p {
+    margin-bottom: 25px;
+}
