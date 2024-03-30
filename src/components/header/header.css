@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 200px;
+}
+
+.nav ul{
+    display: flex;
+    gap: 80px;
+    list-style: none;
+}
+
+.nav a{
+    color:  hsl(192, 70%, 51%);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #000000;
+}
+
+#RequestInviteBtn {
+    background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    border: none;
+    padding: 16px;
+    width: 160px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#RequestInviteBtn:hover {
+    filter: brightness(110%);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
