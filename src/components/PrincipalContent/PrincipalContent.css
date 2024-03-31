@@ -91,8 +91,8 @@
         margin-right: 50px;
     }
     .principalContent img {
-        width: 500px;
-        height: 500px;
+        width: 0 auto;
+        height: 0 auto;
     }
     .whyEasyBank {
         flex-direction: column;
