@@ -12,7 +12,9 @@
     margin-left: 100px;
     
 }
-
+.requestInviteBtnPrincipal {
+    background-color: red;
+}
 .nextGenerationContent h1 {
     letter-spacing: 3px;
     font-weight: 500;
@@ -46,7 +48,7 @@
 .benefits {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
 .benefits p {
@@ -60,5 +62,46 @@
 @media screen and (max-width: 1366px) {
     .benefits {
         grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .whyEasyBank {
+        gap: 100px;
+    }
+    .benefits {
+        margin: 0;
+        grid-template-columns: repeat(2, 2fr);
+    }
+    .nextGenerationContent,
+    .whyEasyBank {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .principalContent {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+       
+    }
+    .nextGenerationContent {
+        width: 300px;
+        margin-right: 50px;
+    }
+    .principalContent img {
+        width: 500px;
+        height: 500px;
+    }
+    .whyEasyBank {
+        flex-direction: column;
+        align-items: center;
+    }
+    .benefits {
+        grid-template-columns: repeat(1, 4fr);
+    }
+    .benefitsContent {
+        align-items: center;
     }
 }

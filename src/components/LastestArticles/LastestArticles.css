@@ -61,3 +61,34 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+@media screen and (max-width: 1280px) {
+    .latestArticles {
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .latestArticles {
+        margin-left: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 80px;
+    }
+    .latestArticles, 
+    .latestArticlesStructure h1{
+     margin-left: 20px;   
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .latestArticles {
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .latestArticles, 
+    .latestArticlesStructure h1{
+     margin-left: 30px;   
+    }
+}

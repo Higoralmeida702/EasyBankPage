@@ -2,7 +2,7 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <footer class='a'>
+        <footer className='footer'>
             <div className='rede'>
                <a href="#"><img src="./images/icon-facebook.svg"alt=""/></a>
                <a href="#"><img src="./images/icon-youtube.svg" alt="" /></a>
@@ -25,7 +25,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className='btnFooter'>
-            <button id="RequestInviteBtn">Request Invite</button>
+            <button id="designBtnFooter">Request Invite</button>
         </div>
         </footer>
     )

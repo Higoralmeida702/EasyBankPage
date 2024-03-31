@@ -7,7 +7,7 @@ const PrincipalContent = () => {
             <div className='nextGenerationContent'>
             <h1>Next generation digital banking</h1>
             <p>Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
-            <button id="RequestInviteBtn">Request Invite</button>
+            <button className="requestInviteBtn">Request Invite</button>
             </div>
             <img className="imgCelulares" src="./images/image-mockups.png" alt="Imagem celulares" />
         </div>
